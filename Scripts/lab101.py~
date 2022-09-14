@@ -1,0 +1,6 @@
+name = ['jojo', 'hana', 'lily', 'same']
+career = ['knigh','witch','archer']
+level = [24, 32, 45]
+
+user_data = zip(name, career, level)
+# print(list(user_data))

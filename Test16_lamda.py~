@@ -1,0 +1,12 @@
+def clean_text(text):
+    return text.strip().capitalize()
+
+clean_text_2 = lambda text: text.strip().capitalize()
+
+input_firstname = input('Firstname: ')
+output_firstname = clean_text_2(input_firstname)
+
+input_lastname = input('Lastname: ')
+output_lastname = clean_text_2(input_lastname)
+print(output_firstname)
+print(output_lastname)
