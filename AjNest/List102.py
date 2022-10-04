@@ -20,6 +20,12 @@ print(color_list)
 color_list.remove("Black")
 print(color_list)
 
+#Delete an item with index
+fruit = ["apple", "orange", "kiwi", "grape", "banana"]
+print(fruit)
+del fruit[int(input("delete:"))-1]
+print(fruit)
+
 #Remove all items from the list
 color_list.clear()
 print(color_list)
