@@ -1,8 +1,6 @@
-List1 = [6, 9, 12, 16]
-print(List1)
-List2 = ['Red', 'Blue', 'Green', 'White']
-print(List2)
-List3 = ['Green', 12, 116,16]
-print(List3)
-List = []
-print(List)
+value = 5
+def func():
+    value = 15
+    print(value, end=" ")
+func()
+print(value)
