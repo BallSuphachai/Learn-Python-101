@@ -1,11 +1,10 @@
-
 import mysql.connector
 
-# Connect to the database
-cnx = mysql.connector.connect(user='root',password='mo0827975251',host='localhost',database='world')
+#ทำการเชื่อมต่อกับฐานข้อมูลง่าย ๆ แค่ใส่ Host / User / Password ให้ถูกต้อง
+connection = mysql.connector.connect(user='root',password='mo0827975251',host='localhost',database='world')
+print(connection)
 
-# Create a cursor
-db_cursor = cnx.cursor()
+db_cursor = connection.cursor()
 
 #สร้าง String ไว้รอใส่คำสั่งสำหรับการ SELECT
 db_cursor.execute("SELECT * FROM country")
